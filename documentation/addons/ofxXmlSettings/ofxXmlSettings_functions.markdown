@@ -8,9 +8,11 @@ _advanced: False_
 
 ##Description
 
+Fill xmlSettings with content of passed parameter.
+Passed parameter should be set to serialised using parameter.setSerializable(true).
 
-
-
+If the passed parameter is a ofPrameterGroup, the group will become a parent xml element containing child parameters elements.
+ofParameterGroup can be nester to build hierachical settings structure.
 
 
 <!----------------------------------------------------------------------------->
